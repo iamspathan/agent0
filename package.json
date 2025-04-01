@@ -1,0 +1,23 @@
+{
+  "name": "agent0",
+  "version": "1.0.0",
+  "description": "Full stack sample app for first party tool calling demo!",
+  "workspaces": [
+    "client"
+  ],
+  "scripts": {
+    "server": "npx tsx server/server.ts",
+    "client": "npm run dev --workspace=client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atko-scratch/agent0.git"
+  },
+  "keywords": [],
+  "author": "auth0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atko-scratch/agent0/issues"
+  },
+  "homepage": "https://github.com/atko-scratch/agent0#readme"
+}
